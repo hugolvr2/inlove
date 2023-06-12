@@ -1,0 +1,11 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 32px;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-weight:bold;
+}
