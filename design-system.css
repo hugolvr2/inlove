@@ -95,6 +95,7 @@ p{
     padding: 16px;
     border-radius: 12px;
     margin: auto;
+    
 }
 
 .header{
@@ -103,7 +104,8 @@ p{
     align-items: center;
     justify-content: space-between;
     width: 350px;    
-    margin: auto;
+    margin: 10px;
+    padding: 10px;
 }
 
 .city-button {
@@ -116,8 +118,32 @@ p{
     color: white;
     border-radius: var(--radius-12);
     padding: 6px 12px;
+    margin: 15px;
 }
   
-.city-button i {
-    
+.ville{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;    
+   
+}
+
+.activitesprevues{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;  
+    margin: 15px;
+}
+
+.activitesprevues{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;  
+    margin: 15px;
 }
