@@ -1,66 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rowdies:wght@400;700&display=swap');
 
-body{
-background-color: var(--color2);
-font-family: var(--font-inter);
-color: var(--color3);
+html{
+    box-sizing: border-box;
 }
-  
-  .custom-button {
-    background-color: gray;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .custom-button i {
-    margin-right: 5px;
-  }
-
-  @media only screen and (max-width: 2rem) {
-    body {
-      font-size: 16px;
-      padding: 10px;
-    }
-  }
-
-  h1,h2,h4,h5,h6 {
-    font-family: var(--font-rowdies)
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 
-:root{
---font-inter: Inter, sans-serif;
---font-rowdies: 'Rowdies', cursive;
+:root {
+    --color1: #F20BE9;
+    --color2: #040404;
+    --color3: #FBFBFB;
+    --color4: #202020;
+    --color5: #2A61ED;
+    --color6: #F50C0C;
+    --color7: #F1F508;
 
---color1: #F20BE9;
---color2: #040404;
---color3: #FBFBFB;
---color4:  #202020;
---color5: #2A61ED;
---color6: #F50C0C;
---color7: #F1F508;
+    --font-inter: Inter, sans-serif;
+    --font-rowdies: 'Rowdies', cursive;
+    
+    --text-size0: 1rem;
+    --text-size1: 2rem;
+    --text-size2: 1.25rem;
+    --text-size3: .75rem;
+    
+    --gap-16: 16px;
+    --gap-8: 8px;
 
-
---text-size0: 1rem;
---text-size1: 2rem;
---text-size2: 1.25rem;
---text-size3: .75rem;
-
+    --radius-12: 12px;
 }
 
 body{
-background-color: var(--color2);
-font-family: var(--font-inter);
-color: var(--color3);
+    background-color: var(--color2);
+    color: var(--color3);
+    padding-top: 50px;
 }
 
-.title {
+h1,h2,h3 {
+    font-family: var(--font-rowdies);
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--text-size1);
+    font-weight:bold;
+}
+
+h2 {
+    font-size: var(--text-size2);
+    font-weight:bold;
+}
+
+h3 {
+    font-size: var(--text-size0);
+    font-weight: bold;
+}
+
+.body1{
+    font-family: var(--font-inter);
+    font-size: var(--text-size0);
+    font-weight: bold;
+}
+
+.body2{
+    font-family: var(--font-inter);
+    font-size: var(--text-size3);
+    font-weight: 400;
+}
+
+p{
+    margin: 0;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    background-color: var(--color1);
+}
+
+.icon-text{
     display: flex;
+    flex-direction: row;
     align-items: center;
- 
-    gap: 10px;
-    font-size: 24px;
-  }
+    gap: 16px;
+}
+
+.activite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    background-color: var(--color4);
+    padding: 16px;
+    border-radius: 12px;
+    margin: auto;
+
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;    
+    margin: 10px;
+    padding: 10px;
+}
+
+.city-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    gap: var(--gap-8);
+    background-color :var(--color4);
+    color: white;
+    border-radius: var(--radius-12);
+    padding: 6px 12px;
+    margin: 15px;
+}
+  
+.ville{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;    
+   
+}
+
+.titlehome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;  
+    margin: 15px;
+}
+
+.activitesprevues{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;  
+    margin: 15px;
+}
