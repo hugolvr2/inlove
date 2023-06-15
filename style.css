@@ -153,5 +153,32 @@ p{
     display: flex;
       justify-content: center;
       align-items: center;
-      height: 60vh;
+      height: 50vh;
+}
+
+.tourne{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.lancer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px; 
+    justify-content: center;
+}
+
+.lancer-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    gap: var(--gap-8);
+    background-color :var(--color1);
+    color: white;
+    border-radius: var(--radius-12);
+    padding: 16px 22px;
+    margin: 15px;
 }
