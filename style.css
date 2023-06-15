@@ -95,7 +95,7 @@ p{
     padding: 16px;
     border-radius: 12px;
     margin: auto;
-
+    margin-top: 1%;
     
 }
 
@@ -147,4 +147,11 @@ p{
     justify-content: space-between;
     width: 350px;  
     margin: 15px;
+}
+
+.roulette{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
 }
