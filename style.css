@@ -196,8 +196,9 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px ;
   }
   
   .nav-item {
@@ -206,6 +207,7 @@ p{
     align-items: center;
     text-decoration: none;
     color: #fff;
+    justify-content: space-between;
   }
   
   .nav-item i {
