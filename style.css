@@ -182,3 +182,32 @@ p{
     padding: 16px 22px;
     margin: 15px;
 }
+
+
+
+ 
+
+
+.bottom-navbar {
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-item i {
+    margin-bottom: 5px;
+  }
