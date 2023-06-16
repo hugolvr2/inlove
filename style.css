@@ -159,7 +159,6 @@ p{
 .tourne{
     text-align: center;
     margin: 20px;
-    
 }
 
 .lancer{
@@ -201,21 +200,62 @@ p{
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #fff;
+    color: var(--color3);
     justify-content: space-between;
     padding: 5px;
   }
   
   .cagnotte-button{
-    stroke: var(--color3);
+    border: 1px solid var(--color3);
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: none;
     gap: var(--gap-8);
     background-color :var(--color2);
-    color: white;
+    color: var(--color3);
     border-radius: var(--radius-12);
     padding: 6px 12px;
     margin: 15px;
+  }
+
+  .obj-cagnotte{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    background-color: var(--color4);
+    padding: 16px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 1%;
+  }
+
+  .pad-cagnotte{
+    padding-top: 15px;
+  }
+
+  .barre-cagnotte{
+    display: flex;
+  justify-content: space-between;
+ 
+  }
+
+  .accescagnotte-button{
+    border: 1px solid var(--color3);
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-8);
+    background-color :var(--color4);
+    color: var(--color3);
+    border-radius: var(--radius-12);
+    padding: 6px 12px;
+    margin: 15px;  
+  }
+
+  .accescagnotte{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
   }
