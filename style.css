@@ -183,13 +183,8 @@ p{
     margin: 15px;
 }
 
-
-
- 
-
-
 .bottom-navbar {
-    background-color: #333;
+    background-color: var(--color2);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -208,8 +203,7 @@ p{
     text-decoration: none;
     color: #fff;
     justify-content: space-between;
+    padding: 5px;
   }
   
-  .nav-item i {
-    margin-bottom: 5px;
-  }
+  
