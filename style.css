@@ -95,8 +95,7 @@ p{
     padding: 16px;
     border-radius: 12px;
     margin: auto;
-    margin-top: 1%;
-    
+    margin-top: 1%;   
 }
 
 .header{
@@ -127,8 +126,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 350px;    
-   
+    width: 350px;      
 }
 
 .titlehome{
@@ -229,7 +227,6 @@ p{
     border-radius: 12px;
     margin: auto;
     margin-top: 5%;
-    
   }
 
   .pad-cagnotte{
@@ -251,10 +248,7 @@ p{
     color: var(--color3);
     border-radius: var(--radius-12);
     padding: 6px 12px;
-    
   }
-
-  
 
   .accescagnotte{
     display: flex;
