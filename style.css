@@ -239,7 +239,7 @@ p{
   .barre-cagnotte{
     display: flex;
   justify-content: space-between;
- 
+ flex-direction: row;
   }
 
   .accescagnotte-button{
