@@ -280,4 +280,34 @@ p{
     padding: 20px;
   }
 
+  .logo{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35vh;
+}
+
+.button-connexion{
+    align-items: center;
+    padding: 20px 20px;
+    border: 1px solid var(--color3);
+    gap: var(--gap-8);
+    background-color :var(--color2);
+    color: var(--color3);
+    border-radius: var(--radius-12);
+    width: 350px;  
+    margin: 15px;
+    position: relative;  
+}
  
+.pos-connexion{
+    position: absolute;
+    bottom: 20px;
+   
+}
+
+.pos-connexion2{
+    position: absolute;
+    bottom: 90px;
+   
+}
