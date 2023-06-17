@@ -311,3 +311,20 @@ p{
     bottom: 90px;
    
 }
+
+.pos-connexion3{
+    position: absolute;
+    bottom: 160px;  
+}
+
+.button-evg{
+    align-items: center;
+    padding: 15px 20px;
+    gap: var(--gap-8);
+    background-color :var(--color1);
+    color: var(--color3);
+    border-radius: var(--radius-12);
+    width: 350px;  
+    margin: 15px;
+    position: relative;  
+}
