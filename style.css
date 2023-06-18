@@ -328,3 +328,22 @@ p{
     margin: 15px;
     position: relative;  
 }
+
+.mapg{
+    margin: -8.5px;
+    padding-top: 20px;
+}
+
+.button-carte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.pos-google{
+position: relative;
+display: block;
+margin: 0 auto;
+}
+
